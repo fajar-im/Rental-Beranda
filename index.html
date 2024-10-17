@@ -28,8 +28,8 @@
             top: 0;
             left: 0;
             width: 100%;
-            padding: 20px 90px;
-            background-color: transparent
+            padding: 30px 70px;
+            background-color: transparent;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -40,6 +40,10 @@
             color: white;
             text-decoration: none;
             font-weight: 700;
+        }
+        .navbar {
+            display: flex;
+            align-items: center;
         }
         .navbar a {
             font-size: 17px;
@@ -52,12 +56,20 @@
         .navbar a:hover {
             color: lightgray;
         }
-        .logo-img {
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            border: 4px solid #ffffff;
-            margin-top: 15px;
+        .auth {
+            display: flex;
+            margin-left: 20px;
+        }
+        .auth a {
+            font-size: 17px;
+            color: white;
+            text-decoration: none;
+            font-weight: 300;
+            margin-left: 20px;
+            transition: 0.3s;
+        }
+        .auth a:hover {
+            color: lightgray;
         }
         .content {
             margin-top: 120px; 
@@ -85,9 +97,13 @@
         <nav class="navbar">
             <a href="https://fajar-im.github.io/Rental-Beranda/">Home</a>
             <a href="https://fajar-im.github.io/Rental-Reservasi/">Reservation</a>
-            <a href="https://fajar-im.github.io/Rental-kontak/">Contact</a>
-            <a href="https://fajar-im.github.io/Rental-tentang/">About</a>
+            <a href="https://fajar-im.github.io/Rental-Kontak/">Contact</a>
+            <a href="https://fajar-im.github.io/Rental-Tentang/">About</a>
         </nav>
+        <div class="auth">
+            <a href="login.html">Login</a>
+            <a href="register.html">Register</a>
+        </div>
     </header>
 
     <div class="content">
